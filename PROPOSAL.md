@@ -33,13 +33,13 @@ The idea is to have an intelligent browser extension that reads the current brow
 I personally take a lot of notes, but the taking notes is not enough, we should be able to re-read the notes once in a while to improve memorization or understanding of the notes. Without which the importance of taking notes drastically decreases. 
 
 This is the main problem that students face when the notes are not reviewed frequently and in an intuitive manner. The Information Retained decreases as the time elapses.
-![The Forgetting Curve](/forgetting-curve.webp)
+![The Forgetting Curve](docs/img/forgetting-curve.webp)
 <p style="text-align:center">
 Fig.1 - The Forgetting Curve
 </p>
 
 To combat this phenomenon the main solution is to keep reviewing the notes frequently so that the % of information retained is maximized.
-![Combating Forgetting Curve](/combating-forgetting-curve.jpg)
+![Combating Forgetting Curve](docs/img/combating-forgetting-curve.jpg)
 <p style="text-align:center">
 Fig.2 - Combating Forgetting Curve using Intelligent Recall
 </p>
