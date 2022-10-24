@@ -4,7 +4,7 @@
 **Ashwin Nandkishor Patil [anpatil2@illinois.edu] [Team Lead]**
 
 ### What topic have you chosen? Why is it a problem? How does it relate to the theme and to the class?
-Intelligent Notes Recall using Browser Extension, it uses three main topics taught during the class: **Language Models, Relevant Search and Relevance Feedback.**
+Intelligent Notes Recall using Browser Extension, as time passes the percent of information retained from any notes or resource exponentially decreases, so as to combat the forgetting curve frequent recall / revision is utmost important. It uses three main topics taught during the class: **Language Models, Relevant Search and Relevance Feedback.**
 
 ### Briefly describe any datasets, algorithms or techniques you plan to use
 + Language Models for creating document embeddings for notes using word embeddings.
@@ -34,9 +34,15 @@ I personally take a lot of notes, but the taking notes is not enough, we should 
 
 This is the main problem that students face when the notes are not reviewed frequently and in an intuitive manner. The Information Retained decreases as the time elapses.
 ![The Forgetting Curve](/forgetting-curve.webp)
+<p style="text-align:center">
+Fig.1 - The Forgetting Curve
+</p>
 
 To combat this phenomenon the main solution is to keep reviewing the notes frequently so that the % of information retained is maximized.
-![Combatting Forgetting Curve](/combating-forgetting-curve.jpg)
+![Combating Forgetting Curve](/combating-forgetting-curve.jpg)
+<p style="text-align:center">
+Fig.2 - Combating Forgetting Curve using Intelligent Recall
+</p>
 
 **This extension will help with information retention as well as intuitive note-taking.**
 
