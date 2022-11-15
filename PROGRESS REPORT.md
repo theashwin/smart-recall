@@ -8,6 +8,7 @@
 - [x] Mozilla Firefox Extension
   - [x] Extension connection with Django backend
   - [x] Extension frontend
+    - [ ] Making it better and more intuitive
   - [x] Text selection and query methods while browsing a webpage
   - [x] Background scripts
 - [x] Django Backend
