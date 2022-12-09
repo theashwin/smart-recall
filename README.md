@@ -2,7 +2,7 @@
 
 Please check [PROPOSAL.md](PROPOSAL.md) for Project Proposal
 
-Please check [PROGRESS REPORT.md](PROGRESS REPORT.md) for Progress Report
+Please check [PROGRESS REPORT.md](PROGRESS_REPORT.md) for Progress Report
 
 # Installation
 ## Django Backend
@@ -54,6 +54,13 @@ about:debugging#/runtime/this-firefox
   - The lower the threshold lower the relevance of the notes.
 
 ## Examples
+```
+Triple click on these paragraphs to test out the extension. 
+
+Make sure that the Django backend is running and the extension is installed 
+on the browser as instructed in the Installation section.
+```
+
 > In statistics, naive Bayes classifiers are a family of simple "probabilistic classifiers" based on applying Bayes' theorem with strong independence assumptions between the features. They are among the simplest Bayesian network models, but coupled with kernel density estimation, they can achieve high accuracy levels.
 
 > k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. 
@@ -104,10 +111,10 @@ Fig.2 - Combating Forgetting Curve using Intelligent Recall
 ## References
 [Combattign the Forgetting Curve](https://www.mindtools.com/pages/article/forgetting-curve.htm)
 
-# Time Report
-## Team Members
+# Team Members
 Ashwin Patil `anpatil2@illinois.edu` `SOLO PROJECT`
 
+# Time Report [38 Hours]
 ## Firefox Extension [14 Hours]
 - [x] `2 Hours` Learning extension development
 - [x] `7 Hours` Developing extension backend
@@ -123,6 +130,6 @@ Ashwin Patil `anpatil2@illinois.edu` `SOLO PROJECT`
   - [x] `2 Hours` Implementing FAISS and exploring hyperparameters.
 - [x] `1 Hour` Converting Markdown to HTML for displaying on frontend
 
-## Miscellaneous [4 Hours]
-- [x] `2 Hours` Documentation
+## Miscellaneous [6 Hours]
+- [x] `4 Hours` Documentation
 - [x] `2 Hours` Presentation
