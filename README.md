@@ -136,6 +136,20 @@ Fig.2 - Combating Forgetting Curve using Intelligent Recall
 
 **This extension will help with information retention as well as intuitive note-taking.**
 
+## Languages
+- Python for Django Backend
+- Javascript for Firefox Extension
+- Markdown for Notes
+
+## Techniques / Tools
+- Facebook AI Similiarity Search (FAISS)
+  - For searching for similar embedding vectos nearby the query vector
+  - It is scalable and efficient and can return related vectors in milliseconds even with billions of dense vectors.
+- Large Multilingual Language Model
+  - I used BERT Base for creating embedding vectors from notes and well as when making query vector from selected text that we get from browser.
+- Testing - Demonstrating the application works as expected.
+  - Testing is done manually and with the help of users using this application on daily basis for 3 days, finding any loopholes and fixing algorithms to finetune relevance and effectiveness.
+
 ## References
 - [Combating the Forgetting Curve](https://www.mindtools.com/pages/article/forgetting-curve.htm)
 - [FAISS](https://github.com/facebookresearch/faiss)
