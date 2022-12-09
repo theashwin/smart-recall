@@ -79,7 +79,7 @@ on the browser as instructed in the Installation section.
 > k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. 
 
 ```
-Please note that 
+Please note that the results posted below are for a threshold value of 0.7, by default I have shipped the application with 0.5 threshold.
 ```
 
 # Screenshots
