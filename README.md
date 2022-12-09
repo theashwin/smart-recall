@@ -4,6 +4,9 @@ Please check [PROPOSAL.md](PROPOSAL.md) for Project Proposal
 
 Please check [PROGRESS REPORT.md](PROGRESS_REPORT.md) for Progress Report
 
+# Video Demo
+[YouTube](https://youtu.be/CigO3WNkKYw)
+
 # Installation
 If you need to change drive in Anaconda Prompt, just type the DRIVE_LETTER followed by colon to move to D:\ drive type, they cd into the downloaded/cloned path.
 ```
@@ -57,6 +60,15 @@ about:debugging#/runtime/this-firefox
 # Usage
 - Once the Django backend is up and running and the Firefox extension is installed 
 - You can triple click on any paragraph that automatically selects the whole paragraphs and makes a search to the backend
+
+> For the first time making the call to the backend it will download the bert base model with is atleast half gigabytes and will install it but that will only happens once for setting up an environment so practically the user will never experience it. It's part of the setup. Every subsequent call is almost instantaneous depending upon the processing power of the computer.
+
+```
+If the application seems stuck after selecting the text, make sure you're triple clicking.
+Check the Anaconda Prompt for any processes that might be going on
+Check if the Django Backend is running.
+```
+
 - The backend will return most relevant notes if one exists else will return empty list.
   - The similarity is determined by the threshold which is saved in `config.json`. 
   - The lower the threshold lower the relevance of the notes.
