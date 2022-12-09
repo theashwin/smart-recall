@@ -1,6 +1,7 @@
-json
 faiss-cpu
 Django
 numpy
 sentence_transformers
-
+djangorestframework
+django-cors-headers
+markdown

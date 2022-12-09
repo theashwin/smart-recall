@@ -5,6 +5,11 @@ Please check [PROPOSAL.md](PROPOSAL.md) for Project Proposal
 Please check [PROGRESS REPORT.md](PROGRESS_REPORT.md) for Progress Report
 
 # Installation
+If you need to change drive in Anaconda Prompt, just type the DRIVE_LETTER followed by colon to move to D:\ drive type, they cd into the downloaded/cloned path.
+```
+D:
+```
+
 ## Django Backend
 You'll need Anaconda / Miniconda installed on the system to install all the python dependencies that are needed to use this project. If you do not have Anaconda installed you can install it from the below link. 
  
@@ -24,7 +29,7 @@ Change directory to `/downloaded_path/src/recall`. This is where we can run the 
 Install all the requirements for the project using the following command,
 
 ```
-pip install -r requirements.txt
+pip install -U -r requirements.txt
 ```
 
 Ideally, all of the requirements would be installed using this command, if not please install the required package manually
@@ -37,13 +42,16 @@ python manage.py runserver
 Keep this server running, we'll now install the browser extension to use the application intuitively.
 
 ## Firefox Extension
+Please install Mozilla Firefox if you don't have it installed from [Mozilla Firefox Download](https://www.mozilla.org/en-US/firefox/new/)
+
 - Go to the URL,
 ```
 about:debugging#/runtime/this-firefox
 ```
 
 - **Click on Load Temporary Add-On**
-- Select `manifest.json` at `firefox/manifest.json`
+- Select `manifest.json` at `/downloaded_path/src/firefox/manifest.json`
+- You'll see a Triangle sign besides the menu icon in the top right corner.
 - You've successfully installed the Firefox extension
 
 # Usage
@@ -52,6 +60,11 @@ about:debugging#/runtime/this-firefox
 - The backend will return most relevant notes if one exists else will return empty list.
   - The similarity is determined by the threshold which is saved in `config.json`. 
   - The lower the threshold lower the relevance of the notes.
+
+# Debugging
+If you change the hyperparameters in `config.json` file you need to delete the `.faiss` hidden folder created in the root directory of the notes location, in the default case it is at `src/recall/markdown/.faiss`
+
+After this the model will retrain again for the new hyperparameters
 
 ## Examples
 ```
@@ -65,6 +78,9 @@ on the browser as instructed in the Installation section.
 
 > k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. 
 
+```
+Please note that 
+```
 
 # Screenshots
 Screenshots for the above examples,
