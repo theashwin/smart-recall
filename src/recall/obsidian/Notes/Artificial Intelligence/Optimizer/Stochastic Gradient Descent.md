@@ -1,0 +1,5 @@
+- In contrast performs a **parameter update for each training example.**
+- SGD performs frequent updates with a high variance that cause the objective function to fluctuate heavily and does away with redundant computations in Batch Gradient Descent.
+- While batch gradient descent converges to the minimum of the basin the parameters are placed in, **SGD’s fluctuation, on the one hand, enables it to jump to new and potentially better local minima.** On the other hand, this ultimately complicates convergence to the exact minimum, **as SGD will keep overshooting.**
+- However, it has been shown that **when we slowly decrease the learning rate, SGD shows the same convergence behavior as batch gradient descent,** almost certainly converging to a local or the global minimum for non-convex and convex optimization respectively.
+- Data is shuffled after every epoch.

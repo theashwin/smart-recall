@@ -1,0 +1,48 @@
+{
+
+  "manifest_version": 2,
+  "name": "Recall",
+  "version": "1.0",
+
+  "description": "Quickly recall already taken notes related to the text on the current page.",
+  "icons": {
+    "48": "icons/recall-48.png"
+  },
+
+  "permissions": [
+    "storage",
+    "menus",
+    "tabs",
+    "http://127.0.0.1:8000/recall/"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/recall-32.png"
+    },
+    "default_title": "Intelligent Recall",
+    "default_popup": "popup/recall.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "anpatil2@illinois.edu"
+    }
+  },
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "popup.js"
+      ]
+    }
+  ]
+
+}

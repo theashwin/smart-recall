@@ -1,0 +1,6 @@
+{
+	"THRESHOLD": 0.5,
+	"NUM_PARTITIONS" : 1,
+	"MAX_RESULTS": 10,
+	"PATH": "markdown"
+}

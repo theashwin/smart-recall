@@ -1,0 +1,1 @@
+**Use this loss function when there are two or more label classes.** We expect labels to be provided in a `one_hot` representation. If you want to provide labels as integers, please use `SparseCategoricalCrossentropy` loss. There should be `# classes` floating point values per feature.

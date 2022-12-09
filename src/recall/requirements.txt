@@ -1,0 +1,6 @@
+json
+faiss-cpu
+Django
+numpy
+sentence_transformers
+

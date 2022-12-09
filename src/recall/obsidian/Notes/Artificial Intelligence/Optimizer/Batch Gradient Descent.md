@@ -1,0 +1,5 @@
+- Computes gradient descent on the cost function w.r.t the parameters on the **entire training set.**
+- As it needs to compute gradients on the entire training set it's **slow** and also **intractable for datasets that don't fit in memory.**
+- **Doesn't** allow to **update models online**, i.e with new examples on the fly.
+- Batch gradient descent is **guaranteed to converge to the global minimum for convex error surfaces** and **to a local minimum for non-convex surfaces.**
+- Matrix multiplications significantly improve performance.

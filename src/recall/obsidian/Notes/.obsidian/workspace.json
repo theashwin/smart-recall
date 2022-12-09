@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "625dc9cc0bf12199",
+    "type": "split",
+    "children": [
+      {
+        "id": "517d39052207e62a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "060a4b1c79d6ffc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Artificial Intelligence/Loss Functions/Categorical Hinge.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb60ea7882bee79f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NASCAR.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "98e061864ea62e8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6e55a51a173582b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f338701dbf0cec79",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c03a795d0a66bb00",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "322236ab7509d064",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff298c067435ce11",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8c60d49f399bb32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01e6d4509a8f7e48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Artificial Intelligence/Loss Functions/Categorical Hinge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a0c44ff3b35da1b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Artificial Intelligence/Loss Functions/Categorical Hinge.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "931cad7ac3c0326b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a4150a1934a55a02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Artificial Intelligence/Loss Functions/Categorical Hinge.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "060a4b1c79d6ffc1",
+  "lastOpenFiles": [
+    "Artificial Intelligence/Loss Functions/Sparse Categorical Entropy.md",
+    "Artificial Intelligence/Optimizer/Batch Gradient Descent.md",
+    "Artificial Intelligence/Optimizer/Gradient Descent.md",
+    "Artificial Intelligence/Optimizer/Mini-Batch Gradient Descent.md",
+    "Artificial Intelligence/Optimizer/Stochastic Gradient Descent.md",
+    "NASCAR.md",
+    "Artificial Intelligence/Loss Functions/Categorical Hinge.md",
+    "Artificial Intelligence/Loss Functions/Categorical Crossentropy.md",
+    "Artificial Intelligence/Loss Functions/Binary Crossentropy.md",
+    "ML/Notes.md"
+  ]
+}
