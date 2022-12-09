@@ -137,7 +137,9 @@ Fig.2 - Combating Forgetting Curve using Intelligent Recall
 **This extension will help with information retention as well as intuitive note-taking.**
 
 ## References
-[Combattign the Forgetting Curve](https://www.mindtools.com/pages/article/forgetting-curve.htm)
+- [Combating the Forgetting Curve](https://www.mindtools.com/pages/article/forgetting-curve.htm)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [Huggingface](https://huggingface.co/sentence-transformers/bert-base-nli-mean-tokens)
 
 # Team Members
 Ashwin Patil `anpatil2@illinois.edu` `SOLO PROJECT`
