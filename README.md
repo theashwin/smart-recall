@@ -1,11 +1,4 @@
-# Intelligent Notes Recall using Browser Extension
-
-Please check [PROPOSAL.md](PROPOSAL.md) for Project Proposal
-
-Please check [PROGRESS REPORT.md](PROGRESS_REPORT.md) for Progress Report
-
-# Video Demo
-[YouTube](https://youtu.be/CigO3WNkKYw)
+# Smart Notes Recall using Browser Extension
 
 # Installation
 If you need to change drive in Anaconda Prompt, just type the DRIVE_LETTER followed by colon to move to D:\ drive type, they cd into the downloaded/cloned path.
