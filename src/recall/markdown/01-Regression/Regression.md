@@ -16,9 +16,9 @@ These assumptions are usually verified using Q-Q Plots, S-W test etc.
 
 This chapter offers introduction to various kind of regressions and their use cases. 
 
-1. [Linear Regression](./01-LinearRegression.md)
-2. [Polynomial Regression](./02-PolynomialRegression.md)
-3. [Support Vector Regression](./03-SupportVectorRegression.md)
+1. [Linear Regression](Linear%20Regression.md)
+2. [Polynomial Regression](Polynomial%20Regression.md)
+3. [Support Vector Regression](Support%20Vector%20Regression.md)
 
 ## ARTICLE REFERENCES
 

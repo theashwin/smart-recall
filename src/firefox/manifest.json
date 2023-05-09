@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Recall",
-  "version": "1.0",
+  "version": "2.0",
 
   "description": "Quickly recall already taken notes related to the text on the current page.",
   "icons": {
@@ -13,6 +13,8 @@
     "storage",
     "menus",
     "tabs",
+    "executeScript",
+    "activeTab",
     "http://127.0.0.1:8000/recall/"
   ],
 

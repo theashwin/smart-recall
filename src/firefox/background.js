@@ -35,19 +35,43 @@ browser.menus.onClicked.addListener((info, tab) => {
 });
 
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    let results = 10
-    const { selection } = request, url = `http://127.0.0.1:8000/recall/?id=` + selection + '&results=' + results;
-    fetch(url, {
-        method: 'GET',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        }
-    }).then(response => response.text())
-        .then(data => {
-        sendResponse({ data });
-    }).catch(err => {
-        console.log("Error", err)
-    })
-    return true;
+    if (sender.envType === "content_child") {
+        console.log("From Selection");
+        let results = 10
+        const {selection} = request, url = `http://127.0.0.1:8000/recall/?id=` + selection + '&results=' + results;
+        fetch(url, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.text())
+            .then(data => {
+                sendResponse({data});
+            }).catch(err => {
+            console.log("Error", err)
+        })
+        return true;
+    } else {
+        console.log("From Popup");
+
+        const {selection, title, desc, results} = request;
+        console.log(results)
+        const url = `http://127.0.0.1:8000/graph/?title=` + title + '&desc=' + desc + '&selection=' + selection + '&results=' + results;
+
+        fetch(url, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.text())
+            .then(data => {
+                sendResponse({data});
+            }).catch(err => {
+            console.log("Error", err)
+        })
+        return true;
+    }
+
 });

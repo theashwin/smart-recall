@@ -1,6 +1,6 @@
 # Support Vector Regression
 
-This method is regression equivalent of classification using [Support Vector Machines](../02-Classification/03-SupportVectorMachines.md).
+This method is regression equivalent of classification using [Support Vector Machines](Support%20Vector%20Machines.md).
 
 ### Basic Principle
 

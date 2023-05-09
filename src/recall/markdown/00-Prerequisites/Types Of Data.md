@@ -8,5 +8,5 @@ It consists of variables, that are either quantitative or qualitative for a lot 
 
 ### Time Series Data
 
-If measurement on variables are taken over or through time. Every variable in a time series dataset is measured at equally spaced time intervals. Usually, the observations are not independent of each other in this case. Time series data can be classified into two types other thank the univariate and multivariate distinction and they are discussed in the [time series chapter](../11-TimeSeries/README.md).
+If measurement on variables are taken over or through time. Every variable in a time series dataset is measured at equally spaced time intervals. Usually, the observations are not independent of each other in this case. Time series data can be classified into two types other thank the univariate and multivariate distinction and they are discussed in the [time series chapter](Time%20Series.md).
 

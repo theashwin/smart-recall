@@ -2,9 +2,9 @@
 
 In real world, data does not always come with labels and in such cases, we need to create our own clusters/labels in order to make some groupings in the data. This is called unsupervised learning. The following algorithms are used to do this:
 
-1. [K-Means Clustering](./01-K-meansClustering.md)
-2. [Hierarchical Clustering](./02-HierarchicalClustering.md)
-3. [Gaussian Mixture Models](./03-GaussianMixtureModels.md)
+1. [K-Means Clustering](K-Means%20Clustering.md)
+2. [Hierarchical Clustering](Hierarchical%20Clustering.md)
+3. [Gaussian Mixture Models](Gaussian%20Mixture%20Models.md)
 
 There are a few other terms that are commonly associated with unsupervised learning as application areas. 
 ### Density Estimation

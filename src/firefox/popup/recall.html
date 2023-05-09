@@ -1,25 +1,68 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+
+    <script src="d3.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
     <link rel="stylesheet" href="recall.css"/>
+    <title>Forced Directed Graphs</title>
 </head>
 
-<body style="overflow: hidden; min-width: 400px; ">
-<div class="outer-wrapper">
-    <div class="header"><h1>Intelligent Recall</h1></div>
-    <div class="new-note">
-        <input id="text" type="text" value="" class="query"/>
-        <button class="recall">Recall</button>
-        <div class="clearfix"></div>
+<body>
+<div class="row">
+    <div class="col-6">
+        <svg id="graph_space"></svg>
     </div>
-    <div class="note-container">
-
+    <div class="col-6">
+        <div class="input-group mb-3">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="title" placeholder="Title"></input>
+                <label for="title">Title</label>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="form-floating">
+        <textarea class="form-control" placeholder="Description" id="description"
+                  style="height: 100px"></textarea>
+                <label for="description">Description</label>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="form-floating">
+        <textarea class="form-control" placeholder="Selection" id="selection"
+                  style="height: 100px"></textarea>
+                <label for="selection">Selection</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mb-3 col-6">
+                <div class="form-floating">
+                    <input type="number" class="form-control" id="results" value="20"></input>
+                    <label for="results">Results</label>
+                </div>
+            </div>
+            <div class="mb-3 col-6">
+                <button type="button" class="btn btn-outline-success" style="width: 100%; height: 97%" id="draw_graph">Draw Graph</button>
+            </div>
+        </div>
     </div>
 </div>
-
-<script src="recall.js"></script>
+</div>
+<div class="row" style="overflow-y: scroll">
+    <div class="col-12">
+        <div class="input-group mb-3">
+            <div class="form-floating">
+                <input type="text" class="form-control" id="node_title" placeholder="Title" readonly></input>
+                <label for="node_title">Title</label>
+            </div>
+        </div>
+        <div id="node_desc"></div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 
 </html>

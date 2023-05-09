@@ -7,4 +7,5 @@ from . import views
 urlpatterns = [
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('recall/', views.recall, name='recall'),
+    path('graph/', views.graph, name='graph'),
 ]
